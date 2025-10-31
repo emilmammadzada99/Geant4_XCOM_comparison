@@ -80,6 +80,11 @@ cd ..
 # Comparison Plot
 python3 comparison_plotting.py
 ```
+## Comparison Plot
+
+The plot below shows the total cross section per mass from Geant4 vs XCOM:
+
+![Geant4 vs XCOM ](xcom_geant4_plot.png)
 ## References
 
 - XCOM Photon Cross Sections Database (NIST): [https://physics.nist.gov/PhysRefData/Xcom/Text/download.html](https://physics.nist.gov/PhysRefData/Xcom/Text/download.html)  
