@@ -1,0 +1,676 @@
+# Macro file for "TestEm0.cc"
+#
+/control/verbose 0
+/run/verbose 1
+#
+#/testem/phys/addPhysics local
+/testem/phys/addPhysics emstandard_opt3
+#
+#/process/eLoss/verbose 0
+/process/em/printParameters 
+#
+/run/initialize
+#
+# Disable energy loss fluctuations
+#/process/eLoss/fluctuation off
+
+# Limit max step length (example 25 um, adjust if needed)
+#/step/max 25 um
+#
+#
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.001 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.0015 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.00156 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.00156 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.002 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.003 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.004 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.005 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.006 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.008 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.01 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.015 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.02 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.03 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.04 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.05 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.06 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.08 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.1 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.15 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.2 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.3 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.4 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.5 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.6 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 0.8 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1.02 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1.25 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1.5 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 2.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 2.04 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 3.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 4.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 5.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 6.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 7.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 8.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 9.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 10.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 11.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 12.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 13.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 14.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 15.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 16.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 18.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 20.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 22.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 24.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 26.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 28.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 30.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 40.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 50.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 60.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 80.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 100.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 150.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 200.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 300.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 400.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 500.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 600.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 800.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 1500.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 2000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 3000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 4000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 5000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 6000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 8000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 10000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 15000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 20000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 30000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 40000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 50000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 60000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 80000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
+#
+/testem/det/setMat G4_Al
+/gun/particle gamma 
+/gun/energy 100000.0 MeV
+/run/setCut 10 mm
+/run/beamOn
+#
+
