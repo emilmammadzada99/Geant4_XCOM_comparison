@@ -57,3 +57,26 @@ al.txt
 
 Calculation is finished.
 ```
+## Installation and Running Geant4 Files
+
+To download, compile, and run the Geant4 files program, follow these steps:
+
+```bash
+
+# Download Geant4 Files from Github
+git clone https://github.com/emilmammadzada99/Geant4_XCOM_comparison.git
+#
+cd Geant4_XCOM_comparison
+# Geant4 macro file generate al.mac
+python3 g4inputgenerator.py
+#
+mkdir build && cd build
+#
+cmake .. && make
+#
+./TestEm0 al.mac
+#
+cd ..
+# Comparison Plot
+python3 comparison_plotting.py
+```
