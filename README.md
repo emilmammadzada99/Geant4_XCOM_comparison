@@ -80,3 +80,7 @@ cd ..
 # Comparison Plot
 python3 comparison_plotting.py
 ```
+## References
+
+- XCOM Photon Cross Sections Database (NIST): [https://physics.nist.gov/PhysRefData/Xcom/Text/download.html](https://physics.nist.gov/PhysRefData/Xcom/Text/download.html)  
+- Geant4 Collaboration: [https://github.com/Geant4](https://github.com/Geant4)
